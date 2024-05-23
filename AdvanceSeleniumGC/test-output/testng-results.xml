@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T11:03:32 IST" name="Default suite" finished-at="2024-05-22T11:04:14 IST" duration-ms="41714">
+    <groups>
+    </groups>
+    <test started-at="2024-05-22T11:03:32 IST" name="Default test" finished-at="2024-05-22T11:04:14 IST" duration-ms="41714">
+      <class name="ReportPrograms.ConnectFromBaseClass_new">
+        <test-method is-config="true" signature="testBS()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:32 IST" name="testBS" finished-at="2024-05-22T11:03:32 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBS -->
+        <test-method is-config="true" signature="testBC()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:32 IST" name="testBC" finished-at="2024-05-22T11:03:39 IST" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBC -->
+        <test-method is-config="true" signature="testBM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:39 IST" name="testBM" finished-at="2024-05-22T11:03:44 IST" duration-ms="5227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBM -->
+        <test-method signature="test1()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:44 IST" name="test1" finished-at="2024-05-22T11:03:44 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="testAM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:44 IST" name="testAM" finished-at="2024-05-22T11:03:50 IST" duration-ms="6197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAM -->
+        <test-method is-config="true" signature="testBM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:50 IST" name="testBM" finished-at="2024-05-22T11:03:55 IST" duration-ms="4470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBM -->
+        <test-method signature="test2()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:55 IST" name="test2" finished-at="2024-05-22T11:03:55 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="testAM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:55 IST" name="testAM" finished-at="2024-05-22T11:04:03 IST" duration-ms="8251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAM -->
+        <test-method is-config="true" signature="testBM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:03 IST" name="testBM" finished-at="2024-05-22T11:04:07 IST" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBM -->
+        <test-method signature="test3()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:07 IST" name="test3" finished-at="2024-05-22T11:04:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="testAM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:07 IST" name="testAM" finished-at="2024-05-22T11:04:13 IST" duration-ms="6230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAM -->
+        <test-method is-config="true" signature="testAc()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:13 IST" name="testAc" finished-at="2024-05-22T11:04:14 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAc -->
+        <test-method is-config="true" signature="testAS()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:14 IST" name="testAS" finished-at="2024-05-22T11:04:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAS -->
+      </class> <!-- ReportPrograms.ConnectFromBaseClass_new -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
