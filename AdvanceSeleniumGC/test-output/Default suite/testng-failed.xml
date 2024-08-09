@@ -3,18 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReportPrograms.ConnectFromBaseClass_new">
+      <class name="TestNgPrograms.DataProvidersFromExcelSheet">
         <methods>
-          <include name="testBM"/>
-          <include name="test3"/>
-          <include name="testAM"/>
-          <include name="test2"/>
-          <include name="testBC"/>
-          <include name="testBS"/>
-          <include name="testAc"/>
-          <include name="testAS"/>
+          <include name="SearchProductFetchCost" invocation-numbers="1"/>
         </methods>
-      </class> <!-- ReportPrograms.ConnectFromBaseClass_new -->
+      </class> <!-- TestNgPrograms.DataProvidersFromExcelSheet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

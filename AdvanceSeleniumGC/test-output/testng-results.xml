@@ -1,65 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-22T11:03:32 IST" name="Default suite" finished-at="2024-05-22T11:04:14 IST" duration-ms="41714">
+  <suite started-at="2024-06-12T11:17:27 IST" name="Default suite" finished-at="2024-06-12T11:18:21 IST" duration-ms="53576">
     <groups>
     </groups>
-    <test started-at="2024-05-22T11:03:32 IST" name="Default test" finished-at="2024-05-22T11:04:14 IST" duration-ms="41714">
-      <class name="ReportPrograms.ConnectFromBaseClass_new">
-        <test-method is-config="true" signature="testBS()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:32 IST" name="testBS" finished-at="2024-05-22T11:03:32 IST" duration-ms="607" status="PASS">
+    <test started-at="2024-06-12T11:17:27 IST" name="Default test" finished-at="2024-06-12T11:18:21 IST" duration-ms="53576">
+      <class name="TestNgPrograms.DataProvidersFromExcelSheet">
+        <test-method signature="SearchProductFetchCost(java.lang.String,java.lang.String)[pri:0, instance:TestNgPrograms.DataProvidersFromExcelSheet@644baf4a]" started-at="2024-06-12T11:17:30 IST" name="SearchProductFetchCost" data-provider="mobileData" finished-at="2024-06-12T11:17:48 IST" duration-ms="17863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple iPhone 13 (128GB) - Starlight]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBS -->
-        <test-method is-config="true" signature="testBC()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:32 IST" name="testBC" finished-at="2024-05-22T11:03:39 IST" duration-ms="6357" status="PASS">
+        </test-method> <!-- SearchProductFetchCost -->
+        <test-method signature="SearchProductFetchCost(java.lang.String,java.lang.String)[pri:0, instance:TestNgPrograms.DataProvidersFromExcelSheet@644baf4a]" started-at="2024-06-12T11:17:48 IST" name="SearchProductFetchCost" data-provider="mobileData" finished-at="2024-06-12T11:18:02 IST" duration-ms="14046" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivo T2x 5G (Marine Blue, 128 GB) (6 GB RAM)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Vivo T2x 5G (Marine Blue, 128 GB) (6 GB RAM)']/../../../../div[3]/div[1]/div/div[1]/div/div[1]/a/span/span[2]/span[2]"}
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2422ad46d7579c91b515b99cf98372e1, findElement {using=xpath, value=//span[text()='Vivo T2x 5G (Marine Blue, 128 GB) (6 GB RAM)']/../../../../div[3]/div[1]/div/div[1]/div/div[1]/a/span/span[2]/span[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60050}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60050/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2422ad46d7579c91b515b99cf98372e1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Vivo T2x 5G (Marine Blue, 128 GB) (6 GB RAM)']/../../../../div[3]/div[1]/div/div[1]/div/div[1]/a/span/span[2]/span[2]"}
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2422ad46d7579c91b515b99cf98372e1, findElement {using=xpath, value=//span[text()='Vivo T2x 5G (Marine Blue, 128 GB) (6 GB RAM)']/../../../../div[3]/div[1]/div/div[1]/div/div[1]/a/span/span[2]/span[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60050}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60050/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2422ad46d7579c91b515b99cf98372e1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at TestNgPrograms.DataProvidersFromExcelSheet.SearchProductFetchCost(DataProvidersFromExcelSheet.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBC -->
-        <test-method is-config="true" signature="testBM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:39 IST" name="testBM" finished-at="2024-05-22T11:03:44 IST" duration-ms="5227" status="PASS">
+        </test-method> <!-- SearchProductFetchCost -->
+        <test-method signature="SearchProductFetchCost(java.lang.String,java.lang.String)[pri:0, instance:TestNgPrograms.DataProvidersFromExcelSheet@644baf4a]" started-at="2024-06-12T11:18:02 IST" name="SearchProductFetchCost" data-provider="mobileData" finished-at="2024-06-12T11:18:21 IST" duration-ms="18626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blackberry phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blackberry Corporation 32GB KEYone 4G LTE Single SIM Smartphone (Silver)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBM -->
-        <test-method signature="test1()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:44 IST" name="test1" finished-at="2024-05-22T11:03:44 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="testAM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:44 IST" name="testAM" finished-at="2024-05-22T11:03:50 IST" duration-ms="6197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAM -->
-        <test-method is-config="true" signature="testBM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:50 IST" name="testBM" finished-at="2024-05-22T11:03:55 IST" duration-ms="4470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBM -->
-        <test-method signature="test2()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:55 IST" name="test2" finished-at="2024-05-22T11:03:55 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="testAM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:03:55 IST" name="testAM" finished-at="2024-05-22T11:04:03 IST" duration-ms="8251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAM -->
-        <test-method is-config="true" signature="testBM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:03 IST" name="testBM" finished-at="2024-05-22T11:04:07 IST" duration-ms="4037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBM -->
-        <test-method signature="test3()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:07 IST" name="test3" finished-at="2024-05-22T11:04:07 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="testAM()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:07 IST" name="testAM" finished-at="2024-05-22T11:04:13 IST" duration-ms="6230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAM -->
-        <test-method is-config="true" signature="testAc()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:13 IST" name="testAc" finished-at="2024-05-22T11:04:14 IST" duration-ms="760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAc -->
-        <test-method is-config="true" signature="testAS()[pri:0, instance:ReportPrograms.ConnectFromBaseClass_new@8462f31]" started-at="2024-05-22T11:04:14 IST" name="testAS" finished-at="2024-05-22T11:04:14 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAS -->
-      </class> <!-- ReportPrograms.ConnectFromBaseClass_new -->
+        </test-method> <!-- SearchProductFetchCost -->
+      </class> <!-- TestNgPrograms.DataProvidersFromExcelSheet -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
